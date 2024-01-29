@@ -62,12 +62,16 @@ a {
 
 .login-form input[type="button"] {
     height: 30px;
-    width: 100px;
+    width: 125px;
     background: #fff;
-    border: 1px solid #f2f2f2;
-    border-radius: 20px;
+    border: #f2f2f2;
+    border-radius: 5px;
     color: slategrey;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
+}
+
+img{
+    width: 150px;
 }
