@@ -45,7 +45,7 @@ header nav a:hover {
 header a img {
     width: 25px;
     height: 25px;
-    margin-left: 5px;
+    margin-left: 7.5px;
 }
 
 .header2 {
@@ -68,7 +68,6 @@ header a img {
     header nav {
         width: 100%;
         text-align: center;
-        /*Centramos el menu y el logotipo*/
         line-height: 100px;
     }
 
