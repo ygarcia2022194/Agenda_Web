@@ -59,7 +59,7 @@ a {
     padding-left: 10px;
 }
 
-.login-form input[type="button"] {
+.login-form a{
     height: 30px;
     width: 125px;
     background: #fff;
@@ -69,6 +69,7 @@ a {
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
+    text-decoration: none;
 }
 
 img{
@@ -116,7 +117,7 @@ img{
         font-size: 22.5px;
     }
 
-    .login-form input[type="button"]{
+    .login-form a{
         height: 50px;
         width: 200px;
         font-size: 22.5px;
