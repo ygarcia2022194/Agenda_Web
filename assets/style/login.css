@@ -75,17 +75,9 @@ img{
     width: 150px;
 }
 
-@media only screen and (min-width : 150px) and (max-width : 530px){
-    .login-form h3 {
-      text-align:center;
-      margin:0;
-    }
-    .login-button {
-      margin-bottom:10px;
-    }
-}
 
-@media (max-width: 915px) and (min-width: 412px){
+
+@media (max-width: 653px){
     .login-form{
         max-width: 500px;
         width: 90%;
@@ -103,6 +95,35 @@ img{
     .login input[type="password"] {
         max-width: 200px;
         width: 65%;  
+    }
+}
+
+@media (max-width: 1368px) and (min-width: 768px){
+    .login-form{
+        width: 500px;
+        height: 400px;
+    }
+    h1{
+        text-align: center;
+        font-size: 100px;
+    }
+    img{display: none;}
+
+    .login input[type="text"],
+    .login input[type="password"] {
+        max-width: 400px;
+        width: 90%;  
+        font-size: 22.5px;
+    }
+
+    .login-form input[type="button"]{
+        height: 50px;
+        width: 200px;
+        font-size: 22.5px;
+    }
+
+    h3{
+        font-size: 25px;
     }
 }
 
