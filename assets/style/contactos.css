@@ -91,9 +91,8 @@ body{
 
 .contenedor-contacto{
     display: flex;
-    justify-content: space-between;
-    max-width: 600px;
-    width: 100%;  
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
 }
 
 .contacto{
@@ -101,7 +100,7 @@ body{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 60%; 
+    width: 40%; 
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
