@@ -39,3 +39,8 @@ label {
     color: #333;
 }
 
+main ul img{
+    width: 150px;
+    float: right;
+    align-items: center;
+}
