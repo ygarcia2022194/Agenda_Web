@@ -1,3 +1,19 @@
+.contenedor-contacto{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
 .contacto{
     background-color: #fff;
     border-radius: 8px;
@@ -7,4 +23,25 @@
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+img{
+    width: 25px;
+    float: left;
+}
+ul{
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+}
+li{
+
+}
+
+strong{
+    color: steelblue;
 }
