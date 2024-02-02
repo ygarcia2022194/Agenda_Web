@@ -163,4 +163,10 @@ a{
     float: right;
 }
 
+.favorito{
+    width: 25px;
+    float: right;
+    cursor: pointer;
+}
+
 
