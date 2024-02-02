@@ -158,4 +158,9 @@ a{
     display: block;
 }
 
+.fav{
+    width: 25px;
+    float: right;
+}
+
 
