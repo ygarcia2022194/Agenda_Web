@@ -115,9 +115,9 @@ hr{
 }
 
 .btn-editar{
-    background-color: slategray;
+    background-color: green;
 }
 
 .btn-eliminar{
-    background-color: slategrey;
+    background-color: red;
 }
